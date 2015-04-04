@@ -1,8 +1,7 @@
 module.exports = {
-  Store: require('./lib/store'),
-  Validator: require('./lib/validator'),
-  msg: require('./lib/msg'),
-  mixins: {
-    StoreMixin: require('./lib/mixins/store-mixin')	
-  } 
-};
+    Store: require('./lib/store'),
+    Action: require('./lib/actin'),
+    mixins: {
+        StoreMixin: require('./lib/mixins/store-mixin')
+    }
+}

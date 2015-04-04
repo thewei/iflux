@@ -1,22 +1,30 @@
 {
-  "name": "iflux",
-  "version": "1.0.4",
-  "description": "iflux是我们探索将immutable.js和react.js更好的粘合的一种方案",
+  "name": "react-native-immutable",
+  "version": "0.0.1",
+  "description": "using immutable.js library with react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hufeng/iflux.git"
+    "url": "https://github.com/thewei/react-native-immutable.git"
   },
   "keywords": [
-    "immutbale",
     "react",
-    "iflux"
+    "react-native",
+    "flux",
+    "iflux",
+    "immutable"
   ],
-  "author": "hufeng <loveruby1988@qq.com>",
+  "author": "thewei<thewei@99is.com>,hufeng <loveruby1988@qq.com>",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/thewei/react-native-immutable/issues"
+  },
+  "homepage": "https://github.com/thewei/react-native-immutable",
+  "devDependencies": {
+    "eventemitter4": "^0.2.4",
+    "immutable": "^3.7.1"
   }
 }
