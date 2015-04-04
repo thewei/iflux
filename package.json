@@ -1,6 +1,6 @@
 {
   "name": "react-native-immutable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "using immutable.js library with react-native",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/thewei/react-native-immutable/issues"
   },
   "homepage": "https://github.com/thewei/react-native-immutable",
-  "devDependencies": {
+  "dependencies": {
     "eventemitter4": "^0.2.4",
     "immutable": "^3.7.1"
   }

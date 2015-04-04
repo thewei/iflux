@@ -1,6 +1,6 @@
 module.exports = {
     Store: require('./lib/store'),
-    Action: require('./lib/actin'),
+    Action: require('./lib/action'),
     mixins: {
         StoreMixin: require('./lib/mixins/store-mixin')
     }
