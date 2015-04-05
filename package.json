@@ -1,6 +1,6 @@
 {
   "name": "react-native-immutable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "using immutable.js library with react-native",
   "main": "index.js",
   "scripts": {
