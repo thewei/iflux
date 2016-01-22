@@ -130,7 +130,7 @@ var React = require('react-native');
 
 var appStore = module.exports = Store({
     user: require('./userStore'),
-    article: require('./articleStore)
+    article: require('./articleStore')
 });
 
 
