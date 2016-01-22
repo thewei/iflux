@@ -9,8 +9,7 @@ More info of [immutable.js](http://facebook.github.io/immutable-js/)
 ## Installation
 
 ```
-npm install react-native-immutable --save
-
+$ npm install react-native-immutable --save
 ```
 
 ## Useage
@@ -35,7 +34,7 @@ react-native project
 
 ### index.ios.js
 
-```
+```javascript
 'use strict';
 
 var React = require('react-native');
@@ -79,7 +78,7 @@ AppRegistry.registerComponent('DEMO', () => App);
 
 ### mainAction.js
 
-```
+```javascript
 'use strict';
 
 var {Action} = require('react-native-immutable');
@@ -98,7 +97,7 @@ module.exports = Action;
 
 ### userAction.js
 
-```
+```javascript
 'use strict';
 
 var Immutable = require('immutable');
@@ -119,7 +118,7 @@ module.exports = userAction;
 
 ### mainStore.js
 
-```
+```javascript
 'use strict'
 
 var Immutable = require('immutable');
@@ -169,7 +168,7 @@ AsyncStorage.getItem(db_name, function(err, res) {
 
 ### userStore.js
 
-```
+```javascript
 'use strict'
 
 module.exports = {
